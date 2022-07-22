@@ -1,0 +1,52 @@
+#
+## tap
+tap "homebrew/bundle" # brew bundle コマンド
+tap "homebrew/cask" # GUI アプリのインストール
+tap "homebrew/services" # brew service コマンド
+tap "homebrew/cask-fonts" # フォント
+tap "homebrew/cask-versions" # 異なるバージョンの cask
+
+
+### Casks
+cask "visual-studio-code" # 多機能テキストエディタ
+cask "drawio" # drew io
+cask "love" # love2d
+cask "google-chrome" # google chrome
+cask "discord"
+#cask "microsoft-teams"
+cask "notion"
+cask "steam"
+cask "utm"
+cask "zoom"
+cask "eset-cyber-security-pro"
+cask "warp"
+cask "android-studio"
+cask "mactex-no-gui" # Tex Live
+cask "gitkraken"
+cask "google-drive"
+cask "onedrive"
+cask "microsoft-word"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+cask "microsoft-teams"
+
+### Homebrew
+brew "mas" # Mac App Store command-line interface
+brew "ansible"
+brew "watchman"
+brew "nvim"
+brew "w3m"
+brew "gcc"
+brew "python-tk"
+brew "pyenv"
+brew "openjdk"
+brew "peco"
+brew "rust" #brew "rust" # Rust toolchain installer
+brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
+cask "utm" # Virtual machines UI using QEMU
+cask "wireshark" # Graphical network analyzer and capture tool
+
+### mas
+#　mas "Microsoft Remote Desktop", id: 1295203466
+
+
