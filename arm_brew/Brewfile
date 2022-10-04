@@ -29,6 +29,7 @@ cask "microsoft-word"
 cask "microsoft-excel"
 cask "microsoft-powerpoint"
 cask "microsoft-teams"
+cask "font-hackgen" # プログラマ向けのフォント
 
 ### Homebrew
 brew "mas" # Mac App Store command-line interface
@@ -43,6 +44,8 @@ brew "openjdk"
 brew "peco"
 brew "rust" #brew "rust" # Rust toolchain installer
 brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
+brew "nodebrew"
+
 cask "utm" # Virtual machines UI using QEMU
 cask "wireshark" # Graphical network analyzer and capture tool
 
