@@ -7,3 +7,5 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(/usr/libexec/path_helper)"
 eval "$(/usr/libexec/path_helper)"
+
+eval "$(pyenv init -)"

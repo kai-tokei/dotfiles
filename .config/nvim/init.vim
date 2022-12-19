@@ -7,9 +7,6 @@ nnoremap <Up> <Nop>
 nnoremap <Down> <Nop>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
-inoremap [ []<LEFT>
-inoremap { {}<LEFT>
-inoremap ( ()<LEFT>
 set expandtab
 set tabstop=2
 set shiftwidth=2

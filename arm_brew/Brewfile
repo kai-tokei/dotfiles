@@ -30,6 +30,7 @@ cask "microsoft-excel"
 cask "microsoft-powerpoint"
 cask "microsoft-teams"
 cask "font-hackgen" # プログラマ向けのフォント
+cask "canva"
 
 ### Homebrew
 brew "mas" # Mac App Store command-line interface
