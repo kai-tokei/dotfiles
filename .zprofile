@@ -4,8 +4,10 @@ eval "$(pyenv init --path)"
 alias g++=g++-12
 alias ls="ls --color"
 alias pytest="python3 -m pytest"
+alias slic3r="/Applications/Slic3r.app/Contents/MacOS/slic3r"
 
 alias shutdown="sudo shutdown -h now"
 
 alias wttr='() { curl -H "Accept-Language: ${LANG%_*}" wttr.in/"${1:-Tokyo}" }'
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/bin:$PATH

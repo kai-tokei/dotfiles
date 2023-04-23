@@ -50,6 +50,8 @@ brew "nodebrew"
 cask "utm" # Virtual machines UI using QEMU
 cask "wireshark" # Graphical network analyzer and capture tool
 
+cask "retroarch" 
+
 ### mas
 #　mas "Microsoft Remote Desktop", id: 1295203466
 

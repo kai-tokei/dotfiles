@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chokidar-cli": "^3.0.0",
     "expo-cli": "^5.4.9"
   }
 }
