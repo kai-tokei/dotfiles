@@ -1,0 +1,38 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1709873074441
+	},
+	"usage": true,
+	"analytics-uuid": "d6f1f492-35ef-41c2-b4d1-54127f6bcfff",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "117370098832186721946",
+		"email": "beinosuke01@gmail.com",
+		"email_verified": true,
+		"at_hash": "toK28fR21fimYGm4wDG4AA",
+		"iat": 1708838629,
+		"exp": 1708842229
+	},
+	"tokens": {
+		"expires_at": 1709876673327,
+		"refresh_token": "1//0ePj7vVkC2y1SCgYIARAAGA4SNwF-L9IrCMbltouzIFHzkA03Zeix4KFQdQAlhF5Und3x40uZFKcN5HtAQRhYJQ1JDXgcv2LXUXY",
+		"scopes": [],
+		"access_token": "ya29.a0Ad52N3_RoK6ZWV80saXUk71vZzaD27j1aSL3NsLdI4_tYwP11fa2HOusWj4olBJKUBq5_AKslYMalSunb_abam-NNkP3Od6s7OjNC8FE4BbG7SIAHIoht_tbLRHiOCWCDQarlXR_NLH35EZeA9znPF-glA9HLRULEd5gyjUVtZIaCgYKAa4SARASFQHGX2MiL93mgw88cFwQaoxO48bmRA0178",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform openid https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA4YmY1YzM3NzJkZDRlN2E3MjdhMTAxYmY1MjBmNjU3NWNhYzMyNmYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3MzcwMDk4ODMyMTg2NzIxOTQ2IiwiZW1haWwiOiJiZWlub3N1a2UwMUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6ImVIQlB3ZWF0VFZQYVhZSmZHUi0wYXciLCJpYXQiOjE3MDk4NzMwNzQsImV4cCI6MTcwOTg3NjY3NH0.UUFedYZkqR1-W9KgGEF3d80TcyN05WV1eXaDCas7uu4ndHooMM5QjB5z337v2jpYDzlYhmZX_kfQyh3LJ80zR1xrI06MoF0_kcQw1GdswESozxS8pLQl5NIOsflQrDLL1PT7c3NVs5Kj-oxxEqXLt0ISp0rsFszl5vylvZHdjsBUAiRXmXL79YuW3M7YYiJDhqrcFBuP_hh6F1nG0pECr4iaAVv-7KT8p8x64hVNqVmj8H7adCCDbTAdPL858-YTS9kBUt5VPyn3pOmANgumiKtDnp61_Y6myeu_G1NxNcQbDA2vtHIwl_fXjUzG1xWIPDsYanuU2OSI8iJsZXuY0Q"
+	},
+	"activeProjects": {
+		"/Users/murakamitadashi/AppDevs/firebase_sample": "fir-test-870e6"
+	}
+}
