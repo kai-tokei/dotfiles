@@ -1,0 +1,54 @@
+#
+## tap
+tap "homebrew/bundle" # brew bundle コマンド
+tap "homebrew/cask" # GUI アプリのインストール
+tap "homebrew/services" # brew service コマンド
+tap "homebrew/cask-fonts" # フォント
+tap "homebrew/cask-versions" # 異なるバージョンの cask
+
+
+### Casks
+cask "visual-studio-code" # 多機能テキストエディタ
+cask "drawio" # drew io
+cask "google-chrome" # google chrome
+cask "discord"
+cask "notion"
+cask "steam"
+cask "utm"
+cask "zoom"
+cask "android-studio"
+cask "mactex-no-gui" # Tex Live
+cask "font-hackgen" # プログラマ向けのフォント
+cask "canva"
+cask "flutter"
+cask "microsoft-teams"
+cask "figma"
+cask "affinity-photo"
+cask "affinity-designer"
+cask "thunderbird"
+cask "docker"
+
+### Homebrew
+brew "mas" # Mac App Store command-line interface
+brew "ansible"
+brew "nvim"
+brew "w3m"
+brew "gcc"
+brew "pyenv"
+brew "rust" #brew "rust" # Rust toolchain installer
+brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
+brew "nodebrew"
+brew "virtualenv"
+brew "tmux"
+brew "rbenv"
+brew "graphviz"
+brew "cmake"
+brew "make"
+brew "tree"
+brew "translate-shell"
+brew "node"
+brew "anyenv"
+
+### mas
+
+
