@@ -57,3 +57,5 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 # postgre
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 
+# rmを安全なコマンドに代替え
+alias rm=trash
