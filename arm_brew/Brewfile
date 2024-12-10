@@ -5,17 +5,29 @@ tap "homebrew/cask" # GUI アプリのインストール
 tap "homebrew/services" # brew service コマンド
 tap "homebrew/cask-fonts" # フォント
 tap "homebrew/cask-versions" # 異なるバージョンの cask
+<<<<<<< HEAD
 tap "oven-sh/bun" # bun: Jsのパッケージマネージャ
+=======
+
+>>>>>>> origin/main
 
 ### Casks
 cask "visual-studio-code" # 多機能テキストエディタ
 cask "drawio" # drew io
+<<<<<<< HEAD
 cask "google-chrome" # google chrome
 cask "discord"
+=======
+cask "love" # love2d
+cask "google-chrome" # google chrome
+cask "discord"
+#cask "microsoft-teams"
+>>>>>>> origin/main
 cask "notion"
 cask "steam"
 cask "utm"
 cask "zoom"
+<<<<<<< HEAD
 cask "android-studio"
 cask "mactex-no-gui" # Tex Live
 cask "font-hackgen" # プログラマ向けのフォント
@@ -31,10 +43,26 @@ cask "love"
 cask "tiled"
 cask "milkytracker"
 cask "inkscape"
+=======
+cask "eset-cyber-security-pro"
+cask "warp"
+cask "android-studio"
+cask "mactex-no-gui" # Tex Live
+cask "gitkraken"
+cask "google-drive"
+cask "onedrive"
+cask "microsoft-word"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+cask "microsoft-teams"
+cask "font-hackgen" # プログラマ向けのフォント
+cask "canva"
+>>>>>>> origin/main
 
 ### Homebrew
 brew "mas" # Mac App Store command-line interface
 brew "ansible"
+<<<<<<< HEAD
 brew "nvim"
 brew "w3m"
 brew "gcc"
@@ -60,6 +88,24 @@ brew "ossp-uuid"
 brew "zlib-devel"
 brew "openssl"
 brew "bun"
+=======
+brew "watchman"
+brew "nvim"
+brew "w3m"
+brew "gcc"
+brew "python-tk"
+brew "pyenv"
+brew "openjdk"
+brew "peco"
+brew "rust" #brew "rust" # Rust toolchain installer
+brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
+brew "nodebrew"
+
+cask "utm" # Virtual machines UI using QEMU
+cask "wireshark" # Graphical network analyzer and capture tool
+
+cask "retroarch" 
+>>>>>>> origin/main
 
 ### mas
 

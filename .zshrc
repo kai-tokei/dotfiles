@@ -4,7 +4,6 @@ fi
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(/usr/libexec/path_helper)"
 eval "$(/usr/libexec/path_helper)"
@@ -18,7 +17,6 @@ export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
 export PATH="/Users/murakamiritsu/Library/Python/3.9/bin:$PATH"
 
 alias ccw="cc -Wall -Wextra -Werror"
-alias sl="ls"
 
 # git
 autoload -Uz vcs_info
@@ -39,7 +37,6 @@ precmd () { vcs_info }
 PROMPT='[%B%F{red}%t%f%b:%F{green}%~%f]%F{cyan}$vcs_info_msg_0_%f
 %F{yellow}$%f '
 
-# venv
 alias mvenv="python3 -m venv venv"
 alias svenv="source venv/bin/activate"
 alias p="python3 ."
