@@ -5,7 +5,7 @@ tap "homebrew/cask" # GUI アプリのインストール
 tap "homebrew/services" # brew service コマンド
 tap "homebrew/cask-fonts" # フォント
 tap "homebrew/cask-versions" # 異なるバージョンの cask
-
+tap "oven-sh/bun" # bun: Jsのパッケージマネージャ
 
 ### Casks
 cask "visual-studio-code" # 多機能テキストエディタ
@@ -27,6 +27,10 @@ cask "affinity-photo"
 cask "affinity-designer"
 cask "thunderbird"
 cask "docker"
+cask "love"
+cask "tiled"
+cask "milkytracker"
+cask "inkscape"
 
 ### Homebrew
 brew "mas" # Mac App Store command-line interface
@@ -48,6 +52,14 @@ brew "tree"
 brew "translate-shell"
 brew "node"
 brew "anyenv"
+brew "trash"
+
+# For C++ API Framework "Dragon"
+brew "jsoncpp"
+brew "ossp-uuid"
+brew "zlib-devel"
+brew "openssl"
+brew "bun"
 
 ### mas
 
