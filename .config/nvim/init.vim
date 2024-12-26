@@ -1,11 +1,6 @@
 set number
 
-inoremap <silent> jj <ESC>
-inoremap { {}<LEFT>
-inoremap [ []<LEFT>
-inoremap ( ()<LEFT>
-inoremap " ""<LEFT>
-inoremap ' ''<LEFT>
+inoremap <silent> jk <ESC>
 set expandtab
 set tabstop=4
 set shiftwidth=2

@@ -1,10 +1,4 @@
 {
   "is-bot": false,
-<<<<<<< HEAD
-  "license-hash": "1fc90c3584a03b4212f250f791787323",
-=======
-  "license-hash": "dc96c9af3fbf254412ffc24bd11a3dc4",
->>>>>>> origin/main
-  "last-active-stable-version": "300451adae589accbece3490f4396f10bdf15e6e",
-  "redisplay-welcome-message": true
+  "license-hash": "1fc90c3584a03b4212f250f791787323"
 }
