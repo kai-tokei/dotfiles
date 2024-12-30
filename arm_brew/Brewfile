@@ -54,12 +54,7 @@ brew "node"
 brew "anyenv"
 brew "trash"
 brew "nodenv"
-
-# For C++ API Framework "Dragon"
-brew "jsoncpp"
-brew "ossp-uuid"
-brew "zlib-devel"
-brew "openssl"
+brew "opencv"
 brew "bun"
 brew "watchman"
 brew "nvim"
@@ -68,10 +63,15 @@ brew "gcc"
 brew "python-tk"
 brew "pyenv"
 brew "openjdk"
-brew "rust" #brew "rust" # Rust toolchain installer
-brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
-brew "nodebrew"
-brew "opencv"
+brew "yaml-cpp"
+brew "googletest" # for C++ Test
+
+# For C++ API Framework "Dragon"
+brew "jsoncpp"
+brew "ossp-uuid"
+brew "zlib-devel"
+brew "openssl"
+
 
 ### mas
 

@@ -55,7 +55,7 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 
 # rmを安全なコマンドに代替え
-alias rm=trash
+# alias rm=trash
 
 # alias for pico8
 alias pico8=/Applications/PICO-8.app/Contents/MacOS/pico8
@@ -64,4 +64,5 @@ alias pico8=/Applications/PICO-8.app/Contents/MacOS/pico8
 # g++ -lgvc -lcgraph [ファイル名] // ヘッダを読み込んでコンパイル
 export CPLUS_INCLUDE_PATH="/opt/homebrew/include"
 export LIBRARY_PATH="/opt/homebrew/lib"
+export CMAKE_PREFIX_PATH="/opt/homebrew/Cellar"
 
