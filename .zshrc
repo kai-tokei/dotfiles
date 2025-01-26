@@ -66,3 +66,11 @@ export CPLUS_INCLUDE_PATH="/opt/homebrew/include"
 export LIBRARY_PATH="/opt/homebrew/lib"
 export CMAKE_PREFIX_PATH="/opt/homebrew/Cellar"
 
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+
+export DYLD_FALLBACK_LIBRARY_PATH="$(xcode-select --print-path)/usr/lib/"
+

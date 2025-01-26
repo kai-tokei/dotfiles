@@ -25,11 +25,8 @@ cask "microsoft-teams"
 cask "figma"
 cask "affinity-photo"
 cask "affinity-designer"
-cask "thunderbird"
 cask "docker"
-cask "love"
 cask "tiled"
-cask "milkytracker"
 cask "inkscape"
 
 ### Homebrew
@@ -65,6 +62,11 @@ brew "pyenv"
 brew "openjdk"
 brew "yaml-cpp"
 brew "googletest" # for C++ Test
+brew "postgresql"
+brew "python-setuptools"
+brew "nvm"
+brew "youtuble-dl"
+brew "dogot"
 
 # For C++ API Framework "Dragon"
 brew "jsoncpp"
