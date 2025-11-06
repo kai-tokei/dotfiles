@@ -13,3 +13,10 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=$HOME/bin:$PATH
 
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
+export MGFXC_WINE_PATH="/Users/murakamiritsu/.winemonogame"
+
+export PATH="$PATH:/Users/murakamiritsu/.winemonogame"
+
+# Created by `pipx` on 2025-09-11 04:56:23
+export PATH="$PATH:/Users/murakamiritsu/.local/bin"

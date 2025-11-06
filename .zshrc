@@ -10,7 +10,7 @@ eval "$(/usr/libexec/path_helper)"
 eval "$(pyenv init -)"
 
 # homebrew
-export PATH=/opt/homebrew/bin:$PATH
+export PATH="/opt/homebrew/bin:$PATH"
 
 # python
 export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
@@ -74,3 +74,28 @@ export NVM_DIR="$HOME/.nvm"
 
 export DYLD_FALLBACK_LIBRARY_PATH="$(xcode-select --print-path)/usr/lib/"
 
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+
+export LDFLAGS="-L/opt/homebrew/opt/curl/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/curl/include"
+
+export PKG_CONFIG_PATH="/opt/homebrew/opt/curl/lib/pkgconfig"
+
+# MATLAB
+export MATLAB_JAVA=$(/usr/libexec/java_home)
+alias matlab="/Applications/MATLAB_R2025a.app/bin/matlab"
+
+# GO
+export PATH="/opt/homebrew//opt/go@1.20/bin:$PATH"
+
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/murakamiritsu/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# Created by `pipx` on 2025-09-11 04:56:23
+export PATH="$PATH:/Users/murakamiritsu/.local/bin"
+
+# Cargo の実行用
+export PATH="$HOME/.cargo/bin:$PATH"

@@ -1,0 +1,10 @@
+[font]
+size = 16
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window.padding]
+x = 4
+y = 4
