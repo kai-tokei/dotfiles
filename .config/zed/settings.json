@@ -26,7 +26,7 @@
   "ui_font_size": 16,
   "buffer_font_size": 14.0,
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Ayu Light",
     "dark": "Ayu Dark"
   }

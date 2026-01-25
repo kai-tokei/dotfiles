@@ -4,17 +4,16 @@ fi
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+eval "$(/usr/libexec/path_helper)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
-eval "$(/usr/libexec/path_helper)"
-eval "$(/usr/libexec/path_helper)"
-eval "$(pyenv init -)"
+# "eval "$(pyenv init -)"
 
 # homebrew
 export PATH="/opt/homebrew/bin:$PATH"
 
 # python
-export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
-export PATH="/Users/murakamiritsu/Library/Python/3.9/bin:$PATH"
+# export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
+# export PATH="/Users/murakamiritsu/Library/Python/3.9/bin:$PATH"
 
 alias ccw="cc -Wall -Wextra -Werror"
 
@@ -99,3 +98,6 @@ export PATH="$PATH:/Users/murakamiritsu/.local/bin"
 
 # Cargo の実行用
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/murakamiritsu/.antigravity/antigravity/bin:$PATH"
