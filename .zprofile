@@ -20,3 +20,7 @@ export PATH="$PATH:/Users/murakamiritsu/.winemonogame"
 
 # Created by `pipx` on 2025-09-11 04:56:23
 export PATH="$PATH:/Users/murakamiritsu/.local/bin"
+
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :

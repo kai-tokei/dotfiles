@@ -101,3 +101,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/murakamiritsu/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/umikai/.antigravity/antigravity/bin:$PATH"
+
+export PATH="/Users/umikai/.local/bin:$PATH"
